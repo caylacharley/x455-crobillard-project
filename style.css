@@ -1,0 +1,103 @@
+.logo-position {
+    position: fixed;
+
+}
+
+.orange-background {
+    background-color: rgb(255,153, 0);
+}
+
+.navbar-text {
+    font-family: "Madimi One";
+    color: rgb(0, 102, 51);
+}
+
+.text-spaceleft {
+    padding-left: 10px;
+}
+.text-spaceright {
+    padding-right: 10px;
+}
+    
+.text-alignrightside {
+    text-align: right;
+}
+
+p {
+    color: rgb(0,102, 51);
+    font-size: 20px
+    font-family: solway-medium
+;}
+
+fonts 
+
+.solway-light {
+    font-family: "Solway", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .solway-regular {
+    font-family: "Solway", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .solway-medium {
+    font-family: "Solway", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .solway-bold {
+    font-family: "Solway", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .solway-extrabold {
+    font-family: "Solway", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .madimi-one {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0,102, 51);
+  }
+  
+  .my-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
+/* Add margin to the left of the copyright text */
+.copyright {
+    margin-left: auto; /* Pushes the copyright text to the right */
+}
+
+/* CSS to make footer cells spread equally */
+.w3-cell-row {
+    display: flex;
+    justify-content: space-between; /* Spread items equally across the container */
+}
+
+/* Adjust width of footer cells */
+.w3-container.w3-cell {
+    flex: 1; /* Each cell takes equal space */
+}
+
+/* CSS to add space between icons */
+.icon-space {
+    display: inline-block; /* Ensure the span takes up space */
+    width: 10px; /* Adjust the width to control the spacing between icons */
+}
+.scrollable-text-box {
+    width: 200px; /* Adjust the width as needed */
+    height: 150px; 
+    overflow: auto; 
+    padding: 10px;
+}
